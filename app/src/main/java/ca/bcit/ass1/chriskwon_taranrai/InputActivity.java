@@ -42,37 +42,37 @@ public class InputActivity extends AppCompatActivity {
                     double enteredValue = Double.parseDouble(myEditText.getText().toString());
                     double result = 0;
                     if (selected.equalsIgnoreCase(getResources().getString(R.string.kilo_to_miles))) {
-                        result = enteredValue * 0.62137;
+                        result = enteredValue * Double.parseDouble(getResources().getString(R.string.kilo_miles));
                         choice1 = getResources().getString(R.string.kilometers);
                         choice2 = getResources().getString(R.string.miles);
                     } else if (selected.equalsIgnoreCase(getResources().getString(R.string.miles_to_kilo))) {
-                        result = enteredValue * 1.60934;
+                        result = enteredValue * Double.parseDouble(getResources().getString(R.string.miles_kilo));
                         choice1 = getResources().getString(R.string.miles);
                         choice2 = getResources().getString(R.string.kilometers);
                     } else if (selected.equalsIgnoreCase(getResources().getString(R.string.meters_to_yards))) {
-                        result = enteredValue * 1.0936;
+                        result = enteredValue * Double.parseDouble(getResources().getString(R.string.meters_yards));
                         choice1 = getResources().getString(R.string.meters);
                         choice2 = getResources().getString(R.string.yards);
                     } else if (selected.equalsIgnoreCase(getResources().getString(R.string.yards_to_meters))) {
-                        result = enteredValue * 0.9144;
+                        result = enteredValue * Double.parseDouble(getResources().getString(R.string.yards_meters));
                         choice1 = getResources().getString(R.string.yards);
                         choice2 = getResources().getString(R.string.meters);
                     } else if (selected.equalsIgnoreCase(getResources().getString(R.string.meters_to_feet))) {
-                        result = enteredValue * 3.28;
+                        result = enteredValue * Double.parseDouble(getResources().getString(R.string.meters_feet));
                         choice1 = getResources().getString(R.string.meters);
                         choice2 = getResources().getString(R.string.feet);
                     } else if (selected.equalsIgnoreCase(getResources().getString(R.string.feet_to_meters))) {
-                        result = enteredValue * 0.3048;
+                        result = enteredValue * Double.parseDouble(getResources().getString(R.string.feet_meters));
                         choice1 = getResources().getString(R.string.feet);
                         choice2 = getResources().getString(R.string.meters);
                     } else {
 
                     }
                     Bundle bundle = new Bundle();
-                    bundle.putDouble("convertedValue", result);
-                    bundle.putString("choice1", choice1);
-                    bundle.putString("choice2", choice2);
-                    bundle.putDouble("enteredValue", enteredValue);
+                    bundle.putDouble(getResources().getString(R.string.converted_val), result);
+                    bundle.putString(getResources().getString(R.string.choice1), choice1);
+                    bundle.putString(getResources().getString(R.string.choice2), choice2);
+                    bundle.putDouble(getResources().getString(R.string.entered_val), enteredValue);
                     Intent i = new Intent(InputActivity.this, OutputActivity.class);
                     i.putExtras(bundle);
                     startActivity(i);

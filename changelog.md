@@ -30,3 +30,10 @@ Release Date: Sep 29, 2017
 - Added Landscape mode to the Application (To make Scrolling work)
 - Added Español language support (Change the language in phone settings to test the Español settings)
 - Fixed empty EditText bug (Application would crash if EditText is left empty)
+
+## Version 0.0.4
+
+Release Date: Sep 29, 2017
+
+- Added all the magic strings and magic numbers to the Android Resource files
+

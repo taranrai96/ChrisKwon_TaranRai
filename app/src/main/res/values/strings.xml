@@ -28,4 +28,14 @@
     <string name="alert">Alert</string>
     <string name="alert_message">Please provide a valid input</string>
     <string name="ok">OK</string>
+    <string name="kilo_miles">0.62137</string>
+    <string name="miles_kilo">1.60934</string>
+    <string name="meters_yards">1.0936</string>
+    <string name="yards_meters">0.9144</string>
+    <string name="meters_feet">3.28</string>
+    <string name="feet_meters">0.3048</string>
+    <string name="converted_val">convertedValue</string>
+    <string name="choice1">choice1</string>
+    <string name="choice2">choice2</string>
+    <string name="entered_val">enteredValue</string>
 </resources>

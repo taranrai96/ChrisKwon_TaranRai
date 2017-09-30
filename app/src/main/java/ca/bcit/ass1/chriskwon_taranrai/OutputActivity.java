@@ -28,10 +28,10 @@ public class OutputActivity extends AppCompatActivity {
 
 
         Bundle bundle = getIntent().getExtras();
-        double convertedValue = bundle.getDouble("convertedValue");
-        String choice1 = bundle.getString("choice1");
-        String choice2 = bundle.getString("choice2");
-        double enteredValue = bundle.getDouble("enteredValue");
+        double convertedValue = bundle.getDouble(getResources().getString(R.string.converted_val));
+        String choice1 = bundle.getString(getResources().getString(R.string.choice1));
+        String choice2 = bundle.getString(getResources().getString(R.string.choice2));
+        double enteredValue = bundle.getDouble(getResources().getString(R.string.entered_val));
         TextView tv = (TextView) findViewById(R.id.textView);
         tv.setText(String.format("%.2f", enteredValue) + " " + choice1 + " " + getResources().getString(R.string.converts_to) + " " + String.format("%.2f", convertedValue) + " " + choice2);
     }
