@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">ChrisKwon_TaranRai</string>
+    <string name="conversion_prompt">Choose Conversion Type</string>
+    <string-array name="conversion_array">
+        <item>Kilometers to Miles</item>
+        <item>Miles to Kilometers</item>
+        <item>Meters to Yards</item>
+        <item>Yards to Meters</item>
+        <item>Meters to Feet</item>
+        <item>Feet to Meters</item>
+    </string-array>
+    <string name="main_banner">Welcome to the Conversion Tool</string>
+    <string name="button_text">Convert</string>
+    <string name="output_banner">Conversion Results</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="meters">Meters</string>
+    <string name="yards">Yards</string>
+    <string name="feet">Feet</string>
+    <string name="kilo_to_miles">Kilometers to Miles</string>
+    <string name="miles_to_kilo">Miles to Kilometers</string>
+    <string name="meters_to_yards">Meters to Yards</string>
+    <string name="yards_to_meters">Yards to Meters</string>
+    <string name="meters_to_feet">Meters to Feet</string>
+    <string name="feet_to_meters">Feet to Meters</string>
+    <string name="converts_to">converts to</string>
+    <string name="back">Back</string>
+    <string name="alert">Alert</string>
+    <string name="alert_message">Please provide a valid input</string>
+    <string name="ok">OK</string>
+    <string name="kilo_miles">0.62137</string>
+    <string name="miles_kilo">1.60934</string>
+    <string name="meters_yards">1.0936</string>
+    <string name="yards_meters">0.9144</string>
+    <string name="meters_feet">3.28</string>
+    <string name="feet_meters">0.3048</string>
+    <string name="converted_val">convertedValue</string>
+    <string name="choice1">choice1</string>
+    <string name="choice2">choice2</string>
+    <string name="entered_val">enteredValue</string>
 </resources>
