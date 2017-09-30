@@ -1,0 +1,30 @@
+<resources>
+    <string name="conversion_prompt">elegir el tipo de conversión</string>
+    <string-array name="conversion_array">
+        <item>Kilómetros a Millas</item>
+        <item>Millas a Kilómetros</item>
+        <item>Metros a Yardas</item>
+        <item>Yardas a Metros</item>
+        <item>Metros a Los Pies</item>
+        <item>Pies a Metros</item>
+    </string-array>
+    <string name="main_banner">Bienvenido a la herramienta de conversión</string>
+    <string name="button_text">Convertir</string>
+    <string name="output_banner">Resultados de la conversión</string>
+    <string name="kilometers">Kilómetros</string>
+    <string name="miles">Millas</string>
+    <string name="meters">Medidores</string>
+    <string name="yards">Yardas</string>
+    <string name="feet">Pies</string>
+    <string name="kilo_to_miles">Kilómetros a Millas</string>
+    <string name="miles_to_kilo">Millas a Kilómetros</string>
+    <string name="meters_to_yards">Metros a Yardas</string>
+    <string name="yards_to_meters">Yardas a Metros</string>
+    <string name="meters_to_feet">Metros a Los Pies</string>
+    <string name="feet_to_meters">Pies a Metros</string>
+    <string name="converts_to">se convierte en</string>
+    <string name="back">Espalda</string>
+    <string name="alert">Alerta</string>
+    <string name="alert_message">Proporcione una entrada válida</string>
+    <string name="ok">De acuerdo</string>
+</resources>

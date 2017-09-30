@@ -12,4 +12,20 @@
     <string name="main_banner">Welcome to the Conversion Tool</string>
     <string name="button_text">Convert</string>
     <string name="output_banner">Conversion Results</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="meters">Meters</string>
+    <string name="yards">Yards</string>
+    <string name="feet">Feet</string>
+    <string name="kilo_to_miles">Kilometers to Miles</string>
+    <string name="miles_to_kilo">Miles to Kilometers</string>
+    <string name="meters_to_yards">Meters to Yards</string>
+    <string name="yards_to_meters">Yards to Meters</string>
+    <string name="meters_to_feet">Meters to Feet</string>
+    <string name="feet_to_meters">Feet to Meters</string>
+    <string name="converts_to">converts to</string>
+    <string name="back">Back</string>
+    <string name="alert">Alert</string>
+    <string name="alert_message">Please provide a valid input</string>
+    <string name="ok">OK</string>
 </resources>
