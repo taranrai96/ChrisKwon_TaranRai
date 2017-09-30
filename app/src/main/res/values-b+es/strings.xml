@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">ChrisKwon_TaranRai</string>
     <string name="conversion_prompt">elegir el tipo de conversión</string>
     <string-array name="conversion_array">
         <item>Kilómetros a Millas</item>
